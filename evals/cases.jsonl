@@ -1,0 +1,12 @@
+{"label": "fraud", "type": "fake_bank", "text": "Your account is locked. Verify immediately and transfer to bsb 062-000."}
+{"label": "fraud", "type": "fake_paypal", "text": "PayPal refund pending. Confirm your account number to receive the refund."}
+{"label": "fraud", "type": "crypto", "text": "Invest in bitcoin now, urgent crypto opportunity, transfer today for 10x returns."}
+{"label": "fraud", "type": "inheritance", "text": "I am a prince with an inheritance, a wire transfer is needed urgently to release funds."}
+{"label": "fraud", "type": "gift_card", "text": "Buy a gift card and send the PayID immediately, it is urgent."}
+{"label": "fraud", "type": "fake_invoice", "text": "Overdue invoice, pay immediately via western union or bitcoin to avoid penalty."}
+{"label": "fraud", "type": "fake_delivery", "text": "Your parcel is held. Verify your account and pay a small refund fee to release it."}
+{"label": "fraud", "type": "romance", "text": "Darling I need you to urgently transfer money, my paypal is broken right now."}
+{"label": "benign", "type": "chat", "text": "Hey, are we still on for lunch tomorrow at noon?"}
+{"label": "benign", "type": "chat", "text": "Thanks for sending the photos, they look great!"}
+{"label": "benign", "type": "chat", "text": "The meeting moved to 3pm, see you in room 4."}
+{"label": "benign", "type": "chat", "text": "Happy birthday! Hope you have a wonderful day."}

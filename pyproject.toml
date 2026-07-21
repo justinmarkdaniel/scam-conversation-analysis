@@ -1,0 +1,24 @@
+[project]
+name = "fraud-prevention"
+version = "0.1.0"
+description = "Fraud-prevention API — take-home challenge"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "httpx>=0.27",
+    "litellm==1.83.9",
+    "pydantic>=2.6",
+    "typing-extensions>=4.10",
+    "phonenumbers>=8.13",
+    "python-stdnum>=1.19",
+    "email-validator>=2.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+addopts = "-m 'not eval'"
+markers = ["eval: model evaluation, run on demand with -m eval"]
+testpaths = ["tests", "evals"]
